@@ -1,0 +1,13 @@
+#!/bin/bash
+
+# List files in current directory
+echo "Listing files in current directory:"
+ls -al
+
+# List files in parent directory
+echo "Listing files in parent directory:"
+ls -al "$(dirname "$PWD")"
+
+# List files in /boot directory
+echo "Listing files in /boot directory:"
+ls -al /boot
