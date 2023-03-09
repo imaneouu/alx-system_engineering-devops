@@ -1,2 +1,2 @@
-echo "Listing files in current directory:"
+#!/bin/bash
 ls -al
