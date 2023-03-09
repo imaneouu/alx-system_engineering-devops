@@ -1,2 +1,2 @@
 #!/bin/bash
-rsync -ruv --exclude='*' --include='*.html' ./ ../
+cp -um *.html ../
